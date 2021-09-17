@@ -80,4 +80,16 @@ input:focus {
   .copy p {
     font-size: 12px;
   }
+
+  .fa-eye {
+    position: absolute;
+    top: 58%;
+    right: 15%;
+  }
+
+  .far.fa-eye {
+    position: absolute;
+    top: 67%;
+    right: 15%;
+  }
 }
