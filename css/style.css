@@ -21,17 +21,21 @@ a {
   margin-top: 40px;
 }
 
-.fa-eye {
-  position: absolute;
-  top: 60%;
-  right: 15%;
-}
-
-.far.fa-eye {
+.eye {
   position: absolute;
   top: 69%;
-  right: 15%;
+  right: 11%;
+  cursor: pointer;
 }
+
+.eye1 {
+  position: absolute;
+  top: 60%;
+  right: 11%;
+  cursor: pointer;
+}
+
+
 
 .warning-btn {
   position: absolute;
@@ -44,6 +48,12 @@ a {
   background: #fff;
   padding: 30px 30px;
   border: 1px solid #cccccc;
+}
+
+
+.fixed-bottom a {
+  text-decoration: none !important;
+  color: #fff !important;
 }
 
 .warning {
@@ -76,20 +86,28 @@ input:focus {
   .register {
     margin-right: 10px;
   }
-
-  .copy p {
-    font-size: 12px;
+ .copy{
+    padding-top: 5px !important;
+  }
+  .copy a {
+    display: none;
   }
 
-  .fa-eye {
-    position: absolute;
-    top: 58%;
-    right: 15%;
+  .copy small {
+    font-size: 11.5px;
   }
 
-  .far.fa-eye {
-    position: absolute;
-    top: 67%;
-    right: 15%;
-  }
+.eye {
+  position: absolute;
+  top: 67%;
+  right: 15%;
+  cursor: pointer;
+}
+
+.eye1 {
+  position: absolute;
+  top: 58%;
+  right: 15%;
+  cursor: pointer;
+}
 }
